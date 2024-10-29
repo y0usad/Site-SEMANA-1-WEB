@@ -4,13 +4,17 @@
   list-style-type: none;
   justify-content: flex-end;
   padding: 10px;
-  border-bottom: 1px solid plum;
+  border-bottom: 1px solid rgb(25, 0, 255);
 }
-body {
-  border: 10px solid plum;
+.container {
+  border: 10px solid rgb(25, 0, 255);
   max-width: 1200px;
   margin: auto;
   min-height: 100vh;
+  background-image: url("../imagens/AE86.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 html {
   min-height: 100vh;
@@ -24,4 +28,9 @@ a:hover {
 }
 li:hover {
   transform: scale(1.3);
+}
+.titulo {
+  color: blue;
+  font-size: 60px;
+  text-align: center;
 }
