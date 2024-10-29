@@ -1,0 +1,17 @@
+.navegacao {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 10px;
+  border-bottom: 1px solid plum;
+}
+body {
+  border: 10px solid plum;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vh;
+}
+html {
+  min-height: 100vh;
+}
