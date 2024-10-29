@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
 .navegacao {
   display: flex;
   gap: 25px;
   list-style-type: none;
   justify-content: flex-end;
   padding: 10px;
-  border-bottom: 1px solid rgb(25, 0, 255);
+  border-bottom: 3px solid rgb(25, 0, 255);
+  margin: auto;
+  width: 90%;
 }
 .container {
   border: 10px solid rgb(25, 0, 255);
@@ -15,12 +18,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 html {
   min-height: 100vh;
+  background-color: black;
 }
 a {
   text-decoration: none;
+  font-size: 20px;
+  color: hsl(240, 100%, 50%);
 }
 a:hover {
   color: red;
@@ -30,7 +39,25 @@ li:hover {
   transform: scale(1.3);
 }
 .titulo {
-  color: blue;
+  color: #0000ff;
   font-size: 60px;
   text-align: center;
+}
+.metal {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.descricao {
+  width: 50%;
+  font-size: 20px;
+  color: azure;
+}
+.buttonjoin {
+  background-color: #0000ff;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 25px;
+  color: azure;
+  margin-top: 200px;
 }
