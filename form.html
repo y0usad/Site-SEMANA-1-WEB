@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script defer src="./script/index.js"></script>
     <link rel="stylesheet" href="./styles/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,23 +9,16 @@
   </head>
   <body>
     <div class="container formpage">
-      <nav>
-        <ul class="navegacao metal">
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./form.html">Form</a></li>
-          <li><a href="./formAction.html">FormAction</a></li>
-        </ul>
-      </nav>
       <h1 class="metal">Prencha para entrar no clube</h1>
       <form class="form metal" action="./formAction.html" method="get">
         <label class="forminput"
           >Nome<input required name="name" type="text"
         /></label>
         <label class="forminput"
-          >E-mail<input required name="name" type="email"
+          >E-mail<input required name="email" type="email"
         /></label>
         <label class="forminput"
-          >Seu carro<input required name="name" type="text"
+          >Seu carro<input required name="seucarro" type="text"
         /></label>
         <button class="metal buttonjoin buttonform">Enviar</button>
       </form>

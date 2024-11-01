@@ -1,0 +1,5 @@
+const urlParametros= new URLSearchParams(window.location.search)
+document.getElementById("name").textContent=urlParametros.get("name")
+document.getElementById("email").textContent=urlParametros.get("email")
+document.getElementById("seucarro").textContent=urlParametros.get("seucarro")
+console.log(urlParametros.get("name"))
