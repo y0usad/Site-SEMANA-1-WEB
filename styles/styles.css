@@ -61,3 +61,32 @@ li:hover {
   color: azure;
   margin-top: 200px;
 }
+.formpage {
+  background-image: url("../imagens/Back2.avif");
+}
+.form {
+  border: 1px solid blue;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 30px;
+  color: #0000ff;
+  padding: 70px;
+  background-color: rgba(0, 0, 0, 0.712);
+  min-width: 390px;
+}
+.forminput {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border-radius: 8px;
+  margin-top: 5px;
+  height: 30px;
+  background-color: #0000ff21;
+  color: azure;
+}
+.buttonform {
+  margin-top: 30px;
+}

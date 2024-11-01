@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="stylesheet" href="./styles/styles.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
+  </head>
+  <body>
+    <div class="container formpage">
+      <nav>
+        <ul class="navegacao metal">
           <li><a href="./about.html">About</a></li>
           <li><a href="./form.html">Form</a></li>
           <li><a href="./formAction.html">FormAction</a></li>
         </ul>
       </nav>
-    <h1>Form</h1>
-</body>
+      <h1 class="metal">Prencha para entrar no clube</h1>
+      <form class="form metal" action="./formAction.html" method="get">
+        <label class="forminput"
+          >Nome<input required name="name" type="text"
+        /></label>
+        <label class="forminput"
+          >E-mail<input required name="name" type="email"
+        /></label>
+        <label class="forminput"
+          >Seu carro<input required name="name" type="text"
+        /></label>
+        <button class="metal buttonjoin buttonform">Enviar</button>
+      </form>
+    </div>
+  </body>
 </html>
