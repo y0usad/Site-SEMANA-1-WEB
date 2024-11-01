@@ -1,12 +1,11 @@
 /* aqui é o css parte visual do site */
- @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
 .navegacao {
   display: flex;
   gap: 25px;
   list-style-type: none;
   justify-content: flex-end;
   padding: 10px;
-  border-bottom: 3px solid rgb(25, 0, 255);
   margin: auto;
   width: 90%;
 }
